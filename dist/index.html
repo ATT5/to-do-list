@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="header"><h1>To Do List 📊</h1></div>
+      <div class="page-content">
+        <div class="menu">
+          <div class="menu-option inbox">📮 Inbox</div>
+          <div class="menu-option today">📆 Today</div>
+          <div class="menu-option week">📅 This Week</div>
+        </div>
+        <div class="action-page">
+          <h2 class="inbox-title">Inbox</h2>
+          <div class="add-task active">➕ Add Task</div>
+          <div class="add-cancel">
+            <input class="task-title" type="text" required />
+            <input class="date" type="date" />
+            <p>Due Date</p>
+            <button class="add">Add</button>
+            <button class="cancel">Cancel</button>
+          </div>
+          <div class="all-task active"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- <input class="task-title" type="text" />
+            <button class="add">Add</button>
+            <button class="cancel">cancel</button> -->

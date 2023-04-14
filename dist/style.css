@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.conetent {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+}
+h1 {
+  color: white;
+  margin: 0;
+  padding: 30px;
+}
+.page-content {
+  display: flex;
+  width: 100%;
+}
+.menu {
+  width: 40%;
+  max-width: 320px;
+  background-color: rgb(214, 214, 214);
+  height: 100vh;
+}
+.menu-option {
+  padding: 1rem;
+}
+.menu-option:hover {
+  background-color: rgb(190, 190, 190);
+  cursor: pointer;
+}
+.menu-option:active {
+  background-color: rgb(150, 150, 150);
+}
+.project-title {
+  margin: 1rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: rgb(41, 41, 41);
+}
+.action-page {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(241, 241, 241);
+}
+.inbox-title {
+  font-size: 2rem;
+  padding: 40px 0 20px 45px;
+}
+.inbox-title,
+.add-task {
+  width: 80%;
+}
+.add-task,
+.add-cancel,
+.all-task {
+  margin: 0 45px;
+  padding: 1rem 0;
+  padding-left: 10px;
+  cursor: pointer;
+  display: none;
+  border-radius: 10px;
+}
+.add-task:hover,
+.add-cancel:hover {
+  background-color: rgb(230, 230, 230);
+}
+.task-title {
+  width: 90%;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  max-width: 400px;
+}
+.add,
+.cancel {
+  width: 100px;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.add {
+  margin-left: 10px;
+  background-color: rgb(61, 255, 142);
+}
+.cancel {
+  margin-left: 10px;
+  background-color: rgb(255, 104, 104);
+}
+.add:active,
+.cancel:active {
+  background-color: aliceblue;
+}
+.active {
+  display: block;
+}
+.task {
+  background-color: rgb(209, 209, 209);
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+}
+.radio {
+  min-height: 25px;
+  min-width: 20px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.date {
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+}
+p {
+  display: inline-block;
+  font-size: 15px;
+}
+.task-date {
+  margin-left: auto;
+}
